@@ -1,6 +1,6 @@
 # WebDev Course - Guy Sadan - 303012561
 # General Instructions
-*You should run npm install for node_modules(I ignored tgus folder in .gitignore) and run the following commands as root.
+*You should run npm install for node_modules(I ignored this folder in .gitignore) and run the following commands as root.
 1.Calculator Function.
 src/calculator.js
 2.Unit Tests.
@@ -10,7 +10,7 @@ https://github.com/final_project/webdev.git
 4.Web Server.
 src/index.js
 First,run the web server : node src/index.js .
-Examples:
+Examples(port 3000):
 Input:curl http://localhost:3000/calculate -X POST -H 'content-type: application/json' --data '{"calculatorState": null,"input":"1"}'
 Output:{"display":"1"}
 Input:curl http://localhost:3000/calculate -X POST -H 'content-type: application/json' --data '{"calculatorState": {"display":"1"},"input":"2"}'
@@ -33,7 +33,7 @@ Input:curl http://localhost:3000/calculate -X POST -H 'content-type: application
 Output:{"display":"565"} 
 5. Integration Tests
 integration/integration.test.js
-run the web server : node index.js .
+run the web server : node src/index.js .
 mocha integration/integration.test.js - 8/8 unit,2/2 integration.
 6. Docker
 run: docker build -t pitaron .
