@@ -1,7 +1,7 @@
 # WebDev Course - Guy Sadan - 303012561
 ## General Instructions
 
-1.Calculator Function.
+1. Calculator Function.
 src/calculator.js
 2.Unit Tests.
 mocha unit/calculator.test.js
