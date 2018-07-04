@@ -1,6 +1,6 @@
 # WebDev Course - Guy Sadan - 303012561
-## General Instructions
-
+# General Instructions
+*You should run npm install for node_modules(I ignored tgus fikder in .gitignore) and run the following commands as root.
 1.Calculator Function.
 src/calculator.js
 2.Unit Tests.
