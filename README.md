@@ -1,5 +1,5 @@
 # WebDev Course - Guy Sadan - 303012561
-# General Instructions
+# General Instructions(Tested with Ubuntu 14.04)
 *You should run npm install for node_modules(I ignored this folder in .gitignore) and run the following commands as root.
 1.Calculator Function.
 src/calculator.js
@@ -43,7 +43,7 @@ run: docker-compose up
 http://localhost
 8. E2E tests (optional)
 Please clean browser cache of new Chrome version: Version 67.0.3396.62 (Official Build) (64-bit) .
-Restart docker compose(I also attached /usr/bin/chromedriver).You should be non root user and run: 
+Restart docker compose(I also attached /usr/bin/chromedriver).You should be non root user and run with python2.7: 
 python e2e/e2e.py
 
 
